@@ -1,13 +1,7 @@
 # MATRIX.FILES
+News desk for public-record briefings.
 
-Public landing page for open-source judicial briefings compiled by Anyelo Encarnacion / ATS MATRIX.
+Live site (enable GitHub Pages on main / root):
+https://anyel1to.github.io/MATRIX-FILES/
 
-Live repo: https://github.com/anyel1to/MATRIX-FILES
-
-To publish the site:
-1. GitHub → Settings → Pages → Deploy from branch `main` / root
-2. Site will be https://anyel1to.github.io/MATRIX-FILES/
-
-Drive folder (PDFs): https://drive.google.com/drive/folders/1XQTmA3_wfXLtMQcrukxH3apnTmQs58or
-
-Set each PDF to Anyone with the link — Viewer.
+Instagram: [@matrix.file](https://instagram.com/matrix.file) · [@atsmatrix](https://instagram.com/atsmatrix)

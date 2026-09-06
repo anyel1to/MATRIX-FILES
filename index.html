@@ -3,80 +3,129 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MATRIX.FILES — Open-source judicial briefings</title>
-  <meta name="description" content="Public-record compilations by Anyelo Encarnacion / ATS MATRIX. Not official charging instruments." />
-  <style>
-    :root { --bg:#070708; --card:#101114; --line:#1e2229; --text:#f4f4f5; --muted:#9aa0a6; --cyan:#22d3ee; }
-    * { box-sizing: border-box; }
-    body { margin:0; background:var(--bg); color:var(--text); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; }
-    .wrap { max-width: 880px; margin: 0 auto; padding: 48px 20px 80px; }
-    .kicker { color:var(--cyan); letter-spacing:.18em; font-size:12px; font-weight:700; }
-    h1 { font-size: clamp(40px, 8vw, 72px); line-height:.9; margin:12px 0 16px; letter-spacing:-.04em; }
-    .lede { color:var(--muted); max-width: 58ch; line-height:1.55; }
-    .rule { height:1px; background:linear-gradient(90deg, var(--cyan), transparent); margin:28px 0 36px; border:0; }
-    .grid { display:grid; gap:16px; }
-    article { background:var(--card); border:1px solid var(--line); padding:22px 22px 20px; }
-    article h2 { margin:8px 0 8px; font-size:22px; }
-    article p { color:var(--muted); margin:0 0 16px; line-height:1.5; font-size:14px; }
-    .meta { color:var(--cyan); font-size:11px; letter-spacing:.12em; font-weight:700; }
-    .btns { display:flex; gap:10px; flex-wrap:wrap; }
-    a.btn { text-decoration:none; color:#041016; background:var(--cyan); padding:10px 14px; font-size:13px; font-weight:700; }
-    a.ghost { background:transparent; color:var(--cyan); border:1px solid var(--cyan); }
-    footer { margin-top:48px; color:var(--muted); font-size:12px; line-height:1.6; }
-    footer a { color:var(--cyan); }
-  </style>
+  <title>MATRIX.FILES — Desk</title>
+  <meta name="description" content="Public-record briefings. Not opinions. A desk of @matrix.file / @atsmatrix." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/news.css" />
 </head>
 <body>
-  <div class="wrap">
-    <div class="kicker">ATS MATRIX // MATRIX.FILES</div>
-    <h1>FILES.<br>NOT OPINIONS.</h1>
-    <p class="lede">Open-source judicial briefings compiled by Anyelo Encarnacion. Public record only. Not indictments, not sworn testimony, not operations plans.</p>
-    <hr class="rule" />
-    <div class="grid">
-      <article>
-        <div class="meta">FILE 017 · 4 SEP 2026</div>
-        <h2>Jeffrey Epstein / Ghislaine Maxwell</h2>
-        <p>Docket briefing only. Epstein died 10 Aug 2019 before trial. Maxwell convicted 2021, 20 years; Aug 2026 petition denied. Official files: justice.gov/epstein. Not a client list.</p>
-        <div class="btns">
-          <a class="btn" href="https://www.justice.gov/epstein" target="_blank" rel="noopener">DOJ files</a>
-          <a class="ghost btn" href="https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/" target="_blank" rel="noopener">Maxwell docket</a>
-          <a class="ghost btn" href="https://github.com/anyel1to/MATRIX-FILES/blob/main/FILE017.md" target="_blank" rel="noopener">FILE 017 brief</a>
-        </div>
-      </article>
-      <article>
-        <div class="meta">FILE 002 · 1 SEP 2026</div>
-        <h2>Nicolás Maduro Moros</h2>
-        <p>United States v. Maduro et al., S.D.N.Y. 1:11-cr-00205. MDC Brooklyn. Not guilty. Trial set 1 June 2027. Capture 3 January 2026. Allegations remain unproven.</p>
-        <div class="btns">
-          <a class="btn" href="https://drive.google.com/file/d/1BtM4a-Eci08VPVmfJweD16Wv40cV15db/view" target="_blank" rel="noopener">Open PDF</a>
-          <a class="ghost btn" href="https://drive.google.com/file/d/1BtM4a-Eci08VPVmfJweD16Wv40cV15db/preview" target="_blank" rel="noopener">Preview</a>
-        </div>
-      </article>
-      <article>
-        <div class="meta">FILE 003 · 2 SEP 2026</div>
-        <h2>Cuba — use of force legal-policy brief</h2>
-        <p>Authorities, constraints, DOJ equities. Not a campaign plan, CONPLAN, or targeting annex. No AUMF. An indictment is not a landing order.</p>
-        <div class="btns">
-          <a class="btn" href="https://drive.google.com/file/d/1GTG9GldCAK5SY8bblRkNuc5zvCEHzuP1/view" target="_blank" rel="noopener">Open PDF</a>
-          <a class="ghost btn" href="https://drive.google.com/file/d/1GTG9GldCAK5SY8bblRkNuc5zvCEHzuP1/preview" target="_blank" rel="noopener">Preview</a>
-        </div>
-      </article>
-      <article>
-        <div class="meta">FILE 004 · 1 SEP 2026</div>
-        <h2>Néstor Gregorio Vera Fernández · Iván Mordisco</h2>
-        <p>EMC commander. At large. OFAC SDN. Colombian warrants. Open-source identity, legal record, and capability sketch. Not a Fiscalía case file.</p>
-        <div class="btns">
-          <a class="btn" href="https://drive.google.com/file/d/1pIQSv0y9-0R5Vufq0WA9C67R_SJmGdRu/view" target="_blank" rel="noopener">Open PDF</a>
-          <a class="ghost btn" href="https://drive.google.com/file/d/1pIQSv0y9-0R5Vufq0WA9C67R_SJmGdRu/preview" target="_blank" rel="noopener">Preview</a>
-        </div>
-      </article>
-    </div>
-    <footer>
-      Prepared by Anyelo Encarnacion · a project of <a href="https://instagram.com/atsmatrix">@atsmatrix</a> / <a href="https://instagram.com/matrix.file">@matrix.file</a><br />
-      Folder: <a href="https://drive.google.com/drive/folders/1XQTmA3_wfXLtMQcrukxH3apnTmQs58or">Google Drive / MATRIX.FILES</a> ·
-      Repo: <a href="https://github.com/anyel1to/MATRIX-FILES">github.com/anyel1to/MATRIX-FILES</a><br />
-      If a Drive file asks for permission, set sharing to “Anyone with the link — Viewer.”
-    </footer>
+  <div class="topbar">
+    <div><span class="live">LIVE</span> DESK · SAT 5 SEP 2026</div>
+    <div class="meta">PUBLIC RECORD ONLY · INDICTMENT ≠ CONVICTION</div>
   </div>
+  <header class="mast">
+    <div class="desk">CUTLER BAY DESK<br><strong>OPEN SOURCE</strong></div>
+    <div class="brand">
+      <div class="kicker">ATS MATRIX // THE FILE</div>
+      <h1>MATRIX.FILES</h1>
+    </div>
+    <div class="follow">FOLLOW<br>
+      <a href="https://instagram.com/matrix.file" target="_blank" rel="noopener">@matrix.file</a> ·
+      <a href="https://instagram.com/atsmatrix" target="_blank" rel="noopener">@atsmatrix</a>
+    </div>
+  </header>
+  <nav class="sec">
+    <a class="on" href="index.html">DESK</a>
+    <a href="#latest">LATEST</a>
+    <a href="#briefs">BRIEFS</a>
+    <a href="about.html">THE DESK</a>
+    <a href="https://drive.google.com/drive/folders/1XQTmA3_wfXLtMQcrukxH3apnTmQs58or" target="_blank" rel="noopener">DRIVE</a>
+    <a href="https://github.com/anyel1to/MATRIX-FILES" target="_blank" rel="noopener">REPO</a>
+  </nav>
+  <div class="ticker">
+    <b>BREAKING</b>
+    <span>FILE 036 — 139,260 cameras mapped · Finding Flock / OSM 5 Sep</span>
+    <span>FILE 035 — MAGA Inc. $10M Texas Senate filing Saturday</span>
+    <span>FILE 033 — Greek F-4 Tanagra · both pilots named</span>
+    <span>FILE 034 — Five EU states · return hubs 2027</span>
+  </div>
+  <main class="wrap">
+    <div class="layout">
+      <section>
+        <article class="hero" id="latest">
+          <div class="hero-body">
+            <span class="tag">FILE 036</span>
+            <h2>139,260 CAMERAS.<br>THE MAP UPDATED TODAY.</h2>
+            <p class="dek">Finding Flock’s open count of license-plate readers hit 139,260 on 5 September. The company figure is about 20 billion scans a month. Hold time, they said in August, dropped from 30 days to 7. A map is not a warrant. A scan is not a charge.</p>
+            <div class="by">DESK · SAT 5 SEP 2026 · SOURCE: FINDINGFLOCK / OSM</div>
+            <p style="margin-top:18px">
+              <a class="btn" href="https://www.findingflock.com/" target="_blank" rel="noopener">OPEN THE MAP</a>
+              <a class="btn ghost" href="https://instagram.com/matrix.file" target="_blank" rel="noopener">WATCH THE REEL</a>
+            </p>
+          </div>
+        </article>
+        <div class="row">
+          <article class="card">
+            <div class="file">FILE 035 · SAT 5 SEP</div>
+            <h3>$10 million. First general-election check.</h3>
+            <p>MAGA Inc. filing. Texas Senate. Paxton v Talarico. TV and digital. The pot behind it is over $400 million. A filing is not a win.</p>
+            <a class="btn" href="https://www.nytimes.com/2026/09/05/us/politics/trump-maga-inc-super-pac.html" target="_blank" rel="noopener">READ THE FILING</a>
+          </article>
+          <article class="card">
+            <div class="file">FILE 033 · SAT 5 SEP</div>
+            <h3>Both pilots. F-4. Tanagra.</h3>
+            <p>Athens Flying Week. 14:55 local. 338 Squadron. Ioannis Blesias, 40. Dimitrios Petrou, 37. Three days mourning. Cause under a board.</p>
+            <a class="btn" href="https://www.reuters.com/business/aerospace-defense/greek-f-4-crashes-during-an-air-show-near-athens-ert-reports-2026-09-05/" target="_blank" rel="noopener">REUTERS SHEET</a>
+          </article>
+        </div>
+        <div class="row">
+          <article class="card">
+            <div class="file">FILE 034 · SAT 5 SEP</div>
+            <h3>Five countries. Return hubs. 2027.</h3>
+            <p>Denmark, Austria, Germany, Netherlands, Greece. Copenhagen Friday. A ministers’ note is not a hub. A vote is not a flight.</p>
+            <a class="btn ghost" href="about.html">HOW WE COUNT</a>
+          </article>
+          <article class="card">
+            <div class="file">FILE 002 · OPEN BRIEF</div>
+            <h3>Nicolás Maduro Moros</h3>
+            <p>S.D.N.Y. 1:11-cr-00205. MDC Brooklyn. Not guilty plea. Trial set 1 June 2027. Allegations remain unproven.</p>
+            <a class="btn" href="https://drive.google.com/file/d/1BtM4a-Eci08VPVmfJweD16Wv40cV15db/view" target="_blank" rel="noopener">OPEN PDF</a>
+          </article>
+        </div>
+      </section>
+      <aside class="rail">
+        <h4>ON THE WIRE</h4>
+        <ol>
+          <li><a href="#latest">036 · Flock map 139,260</a><span>Updated 5 Sep · OSM</span></li>
+          <li><a href="https://www.nytimes.com/2026/09/05/us/politics/trump-maga-inc-super-pac.html">035 · $10M Texas Senate</a><span>MAGA Inc. first general spend</span></li>
+          <li><a href="https://www.reuters.com/business/aerospace-defense/greek-f-4-crashes-during-an-air-show-near-athens-ert-reports-2026-09-05/">033 · F-4 Tanagra</a><span>Both pilots named tonight</span></li>
+          <li><a>034 · EU return hubs</a><span>Five interiors · 2027 target</span></li>
+          <li><a href="https://drive.google.com/file/d/1pIQSv0y9-0R5Vufq0WA9C67R_SJmGdRu/view">004 · Iván Mordisco</a><span>At large · OFAC SDN</span></li>
+          <li><a href="https://drive.google.com/file/d/1GTG9GldCAK5SY8bblRkNuc5zvCEHzuP1/view">003 · Cuba use-of-force brief</a><span>Policy paper · not a CONPLAN</span></li>
+        </ol>
+        <div class="note">This desk compiles public records and open statements. An indictment is not a conviction. A crash is not a finding. A map is not a warrant. A scan is not a charge. Methods stay off the page.</div>
+      </aside>
+    </div>
+    <section class="files" id="briefs">
+      <h2>THE BRIEFS</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="file">FILE 002</div>
+          <h3>Maduro</h3>
+          <p>Judicial orientation briefing. S.D.N.Y. docket.</p>
+          <a class="btn" href="https://drive.google.com/file/d/1BtM4a-Eci08VPVmfJweD16Wv40cV15db/view" target="_blank" rel="noopener">PDF</a>
+        </article>
+        <article class="card">
+          <div class="file">FILE 003</div>
+          <h3>Cuba brief</h3>
+          <p>Use-of-force legal-policy paper. Authorities and constraints.</p>
+          <a class="btn" href="https://drive.google.com/file/d/1GTG9GldCAK5SY8bblRkNuc5zvCEHzuP1/view" target="_blank" rel="noopener">PDF</a>
+        </article>
+        <article class="card">
+          <div class="file">FILE 004</div>
+          <h3>Mordisco</h3>
+          <p>EMC commander. At large. Open-source identity file.</p>
+          <a class="btn" href="https://drive.google.com/file/d/1pIQSv0y9-0R5Vufq0WA9C67R_SJmGdRu/view" target="_blank" rel="noopener">PDF</a>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="site">
+    Prepared by Anyelo Encarnacion · a project of <a href="https://instagram.com/atsmatrix">@atsmatrix</a> / <a href="https://instagram.com/matrix.file">@matrix.file</a><br />
+    Folder: <a href="https://drive.google.com/drive/folders/1XQTmA3_wfXLtMQcrukxH3apnTmQs58or">Google Drive</a> ·
+    Repo: <a href="https://github.com/anyel1to/MATRIX-FILES">github.com/anyel1to/MATRIX-FILES</a><br />
+    Not an official charging instrument. Not sworn testimony. Not an operations plan.
+  </footer>
 </body>
 </html>
